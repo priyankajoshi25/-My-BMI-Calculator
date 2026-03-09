@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BMI Calculator</title>
+
+<link rel="stylesheet" href="bmi_cal.css">
+
+</head>
+<body>
+
+<div class="container">
+
+<!-- LEFT PANEL -->
+<div class="left-panel">
+
+<h1>BMI Calculator</h1>
+
+<div class="input-group">
+<label>Age</label>
+<input type="number" id="age" placeholder="Enter age">
+</div>
+
+<div class="input-group">
+<label>Gender</label>
+<select id="gender">
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+</select>
+</div>
+
+<div class="input-group">
+<label>Weight (kg)</label>
+<input type="number" id="weight" placeholder="Enter weight">
+</div>
+
+<div class="input-group">
+<label>Height (cm)</label>
+<input type="number" id="height" placeholder="Enter height">
+</div>
+
+<button id="calculateBtn">Calculate BMI</button>
+
+</div>
+
+
+<!-- RIGHT PANEL -->
+<div class="right-panel">
+
+<h3>Result</h3>
+
+<canvas id="bmiGauge" width="250" height="180"></canvas>
+
+<div id="result" class="result"></div>
+<div id="category" class="category"></div>
+
+<h3>History</h3>
+
+<div id="history"></div>
+
+<button id="clearHistory" class="clear-btn">Clear History</button>
+
+</div>
+
+</div>
+
+<script src="bmi_cal.js"></script>
+
+</body>
+</html>
