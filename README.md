@@ -48,3 +48,5 @@ The program outputs the BMI value and the corresponding category.
 Clone or download this repository.
 
 Ensure you have Python installed (if it’s a Python project).
+link :-
+http://127.0.0.1:5500/bmi_cal.html
